@@ -1,1 +1,1 @@
-[![@ac4g's Holopin board](https://holopin.io/api/user/board?user=ac4g)](https://holopin.io/@ac4g)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ac4g&show_icons=true&theme=transparent)
