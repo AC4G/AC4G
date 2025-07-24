@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=A85BF7&center=true&width=800&height=80&lines=Systems+programmer+with+a+focus+on+Rust%2C+C%2C+and+performance;Designing+resilient+backends+for+multiplayer+games+at+scale;Event-driven+architecture+with+Pulsar%2C+gRPC%2C+and+YogaByteDB" alt="README SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=5000&pause=800&color=A85BF7&center=true&width=800&height=80&lines=Systems+programmer+with+a+focus+on+Rust%2C+C%2C+and+performance;Designing+resilient+backends+for+multiplayer+games+at+scale;Event-driven+architecture+with+Pulsar%2C+gRPC%2C+and+YogaByteDB" alt="README SVG" />
 </p>
 
 <img align="center" src="https://raw.githubusercontent.com/DenverCoder1/minimalistic-wallpaper-collection/main/images/tacosauceninja-i-cant-stop-what-you-began.png" alt="wallpaper" />
