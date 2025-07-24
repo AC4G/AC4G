@@ -36,6 +36,6 @@ The upcoming version will be completely rewritten in Rust, utilizing an event-dr
 ### My Github Stats
 
 <p align="center">
-  <img style="height: 200px;" src="https://readme-stats.clckblog.space/api/top-langs/?username=AC4G&layout=compact&theme=tokyonight&hide_border=true" alt="AC4G Languages" />
-  <img style="height: 200px;" src="https://streak-stats.demolab.com?user=AC4G&theme=tokyonight&hide_border=true" alt="AC4G Streak" />
+  <img style="height: 150px;" src="https://readme-stats.clckblog.space/api/top-langs/?username=AC4G&layout=compact&theme=tokyonight&hide_border=true" alt="AC4G Languages" />
+  <img style="height: 150px;" src="https://streak-stats.demolab.com?user=AC4G&theme=tokyonight&hide_border=true" alt="AC4G Streak" />
 </p>
