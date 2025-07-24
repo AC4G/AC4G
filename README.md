@@ -23,7 +23,7 @@ I am a self-taught programmer with over 5 years of experience, mainly focusing o
 
 ---
 
-### 🚀 Latest Project: **stexs-core** (Third Iteration)
+### 🚀 Latest Project: [**stexs-core**](https://github.com/AC4G/stexs-core) (Third Iteration)
 
 The project delivers a comprehensive backend solution for multiplayer games, featuring authentication, user management and inventories. It also supports cross-inventory systems, OAuth2 integration, and a web platform where users can manage profiles, add friends, purchase items, and track achievements.
 
