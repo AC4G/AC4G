@@ -9,7 +9,7 @@
 
 ### 👋 Hello, I’m AC4G
 
-I am a self-taught programmer with over 5 years of experience, mainly focusing on back-end development. I started with HTML and CSS, then moved on to PHP, JavaScript and TypeScript on Node.js. Now I am passionate about low-level programming with Rust and C, aiming for performance and control in my projects.
+I am a 21-year-old, self-taught programmer with over 5 years of experience, mainly focusing on back-end development. I started with HTML and CSS, then moved on to PHP, JavaScript, and TypeScript on Node.js. Now I am passionate about low-level programming with Rust and C, aiming for performance and control in my projects.
 
 ---
 
