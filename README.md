@@ -65,7 +65,7 @@ The project delivers a comprehensive backend solution for multiplayer games, fea
 
 Many of these features are already implemented in this third iteration, while ongoing development with a new architecture will continue separately in the next version.
 
-The upcoming version will be completely rewritten in Rust, utilizing an event-driven architecture with aggressive caching powered by Garnet. It will use Pulsar as the event system and Pingora for edge request validation, authentication, and load balancing. Data storage will be distributed via YogaByteDB, and communication will shift from REST APIs to gRPC with FlatBuffers. Pingora’s load balancer will support content negotiation through Accept headers to parse FlatBuffers into Protobuf or JSON formats on request.
+The upcoming version will be completely rewritten in Rust, utilizing an event-driven architecture with aggressive caching powered by Garnet. It will use Redpanda as the event system and Pingora for edge request validation, authentication, and load balancing. Data storage will be distributed via YugaByteDB, and communication will shift from REST APIs to gRPC with FlatBuffers/Protobuf. Pingora’s load balancer will support content negotiation through Accept headers to parse FlatBuffers into Protobuf or JSON formats on request.
 
 ---
 
