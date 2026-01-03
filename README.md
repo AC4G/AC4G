@@ -53,6 +53,7 @@ I am a 22-year-old, self-taught programmer with over 5 years of experience, main
 ![Kong Gateway](https://img.shields.io/badge/Kong_Gateway-002659?style=for-the-badge&logo=kong&logoColor=white) &nbsp; 
 ![Apache Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white) &nbsp; 
 ![Apache Pulsar](https://img.shields.io/badge/Pulsar-188FFF?style=for-the-badge&logo=apachepulsar&logoColor=white) &nbsp; 
+![Redpanda](https://img.shields.io/badge/Redpanda-CB1E1E?style=for-the-badge&logo=redpanda&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white) &nbsp; 
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) &nbsp; 
 ![Lemon Squeezy](https://img.shields.io/badge/Lemon_Squeezy-FFC107?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZDIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxNnB4IiBoZWlnaHQ9IjE2cHgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6bTAgMThjLTQuNDIgMC04LTMuNTgtOC04czMuNTgtOCA4LTggOCAzLjU4IDggOC0zLjU4IDgtOCA4eiIvPjwvc3ZnPg==&logoColor=black)
