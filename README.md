@@ -9,7 +9,11 @@
 
 ### 👋 Hello, I’m AC4G
 
-I am a 22-year-old, self-taught programmer with over 5 years of experience, mainly focusing on back-end development. I started with HTML and CSS, then moved on to PHP, JavaScript, and TypeScript on Node.js. Now I am passionate about low-level programming with Rust and C, aiming for performance and control in my projects.
+Backend engineer focused on clean, reliable APIs and backend systems that hold up under real usage — not just demos.
+
+I’ve been building backend software since 2020, starting with pragmatic CRUD-based APIs and growing into maintaining and refactoring long-running systems. My focus is on correctness, clear system boundaries, and architectures that can evolve without breaking under change.
+
+I enjoy working close to the metal when needed, using Rust and C for performance-critical paths, while leveraging higher-level tools where they make sense.
 
 ---
 
@@ -60,10 +64,33 @@ I am a 22-year-old, self-taught programmer with over 5 years of experience, main
 
 ---
 
-### 🚀 Latest Project: [**stexs-core**](https://github.com/AC4G/stexs-core) (Third Iteration)
+### 🚀 Latest Project: [**stexs-spike**](https://github.com/AC4G/stexs-spike) (Third Iteration)
 
-The project delivers a comprehensive backend solution for multiplayer games, featuring authentication, user management and inventories. It also supports cross-inventory systems, OAuth2 integration, and a web platform where users can manage profiles, add friends, purchase items, and track achievements.
+**stexs-spike** is a backend platform for multiplayer games, designed to provide authentication, user management, and inventory systems as long-running, production-grade services.
 
-Many of these features are already implemented in this third iteration, while ongoing development with a new architecture will continue separately in the next version.
+The current iteration includes:
+- Authentication and user accounts  
+- Player inventories and cross-inventory systems  
+- OAuth2 integrations  
+- A web platform for profile management, social features, item purchases, and achievements  
 
-The upcoming version will be completely rewritten in Rust, utilizing an event-driven architecture with aggressive caching powered by Garnet. It will use Redpanda as the event system and Pingora for edge request validation, authentication, and load balancing. Data storage will be distributed via YugaByteDB, and communication will shift from REST APIs to gRPC with FlatBuffers/Protobuf. Pingora’s load balancer will support content negotiation through Accept headers to parse FlatBuffers into Protobuf or JSON formats on request.
+Many of these features are already implemented. Ongoing development continues alongside a next-generation architecture that incorporates lessons learned from maintaining and refactoring real backend systems over time.
+
+---
+
+### 🔄 Upcoming Architecture: STEXS Platform (Next Iteration)
+
+**STEXS** is a backend infrastructure platform for multiplayer games, designed to provide authentication, inventory, storage, and operational primitives as shared services — without vendor lock-in or fragmented integrations.
+
+The platform is built backend-first, with architecture defined before feature scale.
+
+**Key highlights:**
+- Rust-based core with strong type safety and async workflows  
+- Intent-driven APIs (not CRUD), designed around real business actions  
+- Vertical Slice Architecture with clear domain ownership (Auth, Inventory, Storage, etc.)  
+- Event-driven core using **Redpanda** for loose coupling and auditability  
+- Distributed SQL via **YugabyteDB** with ACID guarantees  
+- **Garnet** for low-latency caching and atomic operations, chosen for significantly higher throughput than Redis on the same hardware (even with multithreading enabled)  
+- **Pingora** at the edge for request validation, rate limiting, and JWT caching  
+
+The goal of this iteration is correctness, clarity, and long-term evolvability — building infrastructure that can grow without breaking existing integrations.
